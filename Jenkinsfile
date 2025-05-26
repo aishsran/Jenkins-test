@@ -49,6 +49,12 @@ pipeline {
         }
     }
 
+    stage('New Addition - Trigger Integration') {
+        steps {
+            echo "Auto Trigger Integration is Successfull"
+        }
+    }
+
     post {
         success {
             echo "Pipeline Executed Successfully!"
