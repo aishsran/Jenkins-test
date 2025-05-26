@@ -47,14 +47,14 @@ pipeline {
                 echo "Deploying the application to the ${env.PRODUCTION_ENVIRONMENT} environment"
             }
         }
-    }
 
         stage('New Addition - Trigger Integration') {
             steps {
                 echo "Auto Trigger Integration is Successfull"
         }
     }
-
+}
+    
     post {
         success {
             echo "Pipeline Executed Successfully!"
