@@ -51,7 +51,7 @@ pipeline {
             }
         }
 
-        stage('Deploy to Production test 1') {
+        stage('Deploy to Production') {
             steps {
                 echo 'Deploying application to the production server'
                 echo 'Method: SCP or remote PowerShell/SSH'
