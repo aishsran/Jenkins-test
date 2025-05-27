@@ -61,7 +61,7 @@ pipeline {
     
     post {
         success {
-            echo "Pipeline Executed Successfully!"
+            echo "Pipeline Executed Successfully!!"
             emailext(
                 to: "aishsinghsran@gmail.com",
                 subject: "Build Status Report",
